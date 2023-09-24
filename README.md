@@ -8,25 +8,24 @@ INSTALL TOOL ON TERMUX
 
 INSTALL TOOL ON A-SHELL
 
- pkg update
- pkg upgrade
- pkg install python
- pkg install git
- pip install requests
- pip install bs4
- pip install futures
- pip install mechanize
- cd $HOME 
- rm -rf ENCODE
- git clone --depth=1 https://github.com/star-kurdistan/ENCODE
+pkg update
+pkg upgrade
+pkg install python
+pkg install git
+pip install requests
+pip install bs4
+pip install futures
+pip install mechanize
+cd $HOME 
+ 
+rm -rf ENCODE
+git clone --depth=1 https://github.com/star-kurdistan/ENCODE
 
- cd ENCODE
+cd ENCODE
 
- ls
-
-
- python encode.py
+ls
 
 
+python encode.py
 
- WORKING IOS AND ANDROID SOFTWARE
+WORKING IOS AND ANDROID SOFTWARE
